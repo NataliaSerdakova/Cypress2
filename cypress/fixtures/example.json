@@ -1,0 +1,52 @@
+{
+	"homePage": {
+		"pageTitle": ".page-header__title",
+		"movieTitles": ".movie__title",
+		"dayNavigation": ".page-nav__day"
+	},
+	"selectors": {
+		"emailInput": "input[name='email']",
+		"passwordInput": "input[name='password']",
+		"loginButton": "input.login__button",
+		"adminPageTitle": "Администраторррская",
+		"errorMessage": "Ошибка авторизации!"
+	},
+	"users": {
+		"happy": {
+			"email": "qamid@qamid.ru",
+			"password": "qamid"
+		},
+		"sad": {
+			"email": "wrong@qamid.ru",
+			"password": "wrongpass"
+		}
+	},
+	"selectors2": {
+		"emailInput": "input[name='email']",
+		"passwordInput": "input[name='password']",
+		"loginButton": "input.login__button",
+		"confStepMovie": ".conf-step__movie",
+		"confStepMovieTitle": ".conf-step__movie-title",
+		"adminPageTitle": "Администраторррская",
+		"movie": ".movie",
+		"movieTitle": ".movie__title",
+		"pageNavDay": ".page-nav__day:nth-of-type(2)",
+		"timeSlot": "17:00",
+		"buyingSchemeRow": ".buying-scheme__wrapper > :nth-child({row}) > :nth-child({seat})",
+		"acceptButton": ".acceptin-button",
+		"successMessage": "Вы выбрали билеты"
+	},
+	"seats": [{
+			"row": 2,
+			"seat": 1
+		},
+		{
+			"row": 2,
+			"seat": 2
+		},
+		{
+			"row": 2,
+			"seat": 3
+		}
+	]
+}
